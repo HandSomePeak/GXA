@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  淘宝
+
+  Created by gxa10 on 15/12/7.
+  Copyright © 2015年 杨峰. All rights reserved.
+*/
+
+//文本域提示文本
+"message_reminder_username" = "Please input user name";
+"message_reminder_password" = "Please input password";
+
+//警告控制器标题
+"prompt" = "prompt";
+//警告控制器信息
+"message" = "The user name or password is empty, please enter again";
+"message_result" = "You enter the information is\nUser Name:%@\nPassword:%@";
+//警告控制器按钮
+"ok" = "OK";
+
+
+

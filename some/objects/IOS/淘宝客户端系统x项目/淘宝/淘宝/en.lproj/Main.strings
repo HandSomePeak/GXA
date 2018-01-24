@@ -1,0 +1,117 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "16a-5u-SqT"; */
+"16a-5u-SqT.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "25t-5y-QJE"; */
+"25t-5y-QJE.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "物价管理"; ObjectID = "2op-Eo-YB5"; */
+"2op-Eo-YB5.text" = "物价管理";
+
+/* Class = "UITabBarController"; title = "标签控制器"; ObjectID = "49e-Tb-3d3"; */
+"49e-Tb-3d3.title" = "标签控制器";
+
+/* Class = "UILabel"; text = "我的订单"; ObjectID = "5Qs-Pk-qXP"; */
+"5Qs-Pk-qXP.text" = "我的订单";
+
+/* Class = "UILabel"; text = "主标题"; ObjectID = "6XY-zk-WwH"; */
+"6XY-zk-WwH.text" = "主标题";
+
+/* Class = "UITableViewController"; title = "商品列表"; ObjectID = "6h0-5z-YrQ"; */
+"6h0-5z-YrQ.title" = "商品列表";
+
+/* Class = "UIViewController"; title = "商品信息"; ObjectID = "7TR-df-fpz"; */
+"7TR-df-fpz.title" = "商品信息";
+
+/* Class = "UINavigationController"; title = "商品类别导航控制器"; ObjectID = "7cn-gI-qB3"; */
+"7cn-gI-qB3.title" = "商品类别导航控制器";
+
+/* Class = "UINavigationItem"; title = "我的收藏"; ObjectID = "9g0-LP-uk8"; */
+"9g0-LP-uk8.title" = "我的收藏";
+
+/* Class = "UINavigationItem"; title = "淘宝登录"; ObjectID = "Biw-oN-O5K"; */
+"Biw-oN-O5K.title" = "My taobao";
+
+/* Class = "UINavigationItem"; title = "立即购买"; ObjectID = "Bo1-Gu-Z3L"; */
+"Bo1-Gu-Z3L.title" = "立即购买";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "DZv-sr-enK"; */
+"DZv-sr-enK.text" = "Password";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DlG-x5-ufv"; */
+"DlG-x5-ufv.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "淘宝搜索"; ObjectID = "Iz8-ix-a2c"; */
+"Iz8-ix-a2c.title" = "淘宝搜索";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "J4p-mW-x3D"; */
+"J4p-mW-x3D.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "淘宝功能"; ObjectID = "N1c-lJ-Pqh"; */
+"N1c-lJ-Pqh.title" = "淘宝功能";
+
+/* Class = "UITableViewController"; title = "淘宝功能"; ObjectID = "R1D-EK-8z0"; */
+"R1D-EK-8z0.title" = "淘宝功能";
+
+/* Class = "UINavigationController"; title = "淘宝功能导航控制器"; ObjectID = "S7o-rq-mGf"; */
+"S7o-rq-mGf.title" = "淘宝功能导航控制器";
+
+/* Class = "UINavigationController"; title = "淘宝搜索导航制器"; ObjectID = "UrY-Pj-2c4"; */
+"UrY-Pj-2c4.title" = "淘宝搜索导航制器";
+
+/* Class = "UILabel"; text = "我的购物车"; ObjectID = "Y8L-1i-ny5"; */
+"Y8L-1i-ny5.text" = "我的购物车";
+
+/* Class = "UILabel"; text = "商品类别每页显示数量"; ObjectID = "a7q-Sf-QBb"; */
+"a7q-Sf-QBb.text" = "商品类别每页显示数量";
+
+/* Class = "UILabel"; text = "物流查询"; ObjectID = "bvL-yv-SMB"; */
+"bvL-yv-SMB.text" = "物流查询";
+
+/* Class = "UITabBarItem"; title = "我的淘宝"; ObjectID = "c5z-wN-yeB"; */
+"c5z-wN-yeB.title" = "My taobao";
+
+/* Class = "UITableViewController"; title = "商品类别"; ObjectID = "gwi-uL-rIB"; */
+"gwi-uL-rIB.title" = "商品类别";
+
+/* Class = "UILabel"; text = "副标题"; ObjectID = "lmZ-JU-wxM"; */
+"lmZ-JU-wxM.text" = "副标题";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "mYt-fc-9B7"; */
+"mYt-fc-9B7.text" = "User Name";
+
+/* Class = "UIViewController"; title = "软件设置"; ObjectID = "mxE-gN-kEf"; */
+"mxE-gN-kEf.title" = "软件设置";
+
+/* Class = "UILabel"; text = "我的收藏"; ObjectID = "n4X-fK-JoT"; */
+"n4X-fK-JoT.text" = "我的收藏";
+
+/* Class = "UINavigationItem"; title = "商品类别"; ObjectID = "oNs-9P-YUH"; */
+"oNs-9P-YUH.title" = "商品类别";
+
+/* Class = "UINavigationItem"; title = "软件设置"; ObjectID = "qud-nd-3UV"; */
+"qud-nd-3UV.title" = "软件设置";
+
+/* Class = "UITabBarItem"; title = "淘宝功能"; ObjectID = "rJf-xi-UAC"; */
+"rJf-xi-UAC.title" = "淘宝功能";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "rNN-P6-vDL"; */
+"rNN-P6-vDL.title" = "保存";
+
+/* Class = "UIBarButtonItem"; title = "<返回"; ObjectID = "sC0-zc-ARW"; */
+"sC0-zc-ARW.title" = "<返回";
+
+/* Class = "UIViewController"; title = "立即购买"; ObjectID = "tfS-72-e7c"; */
+"tfS-72-e7c.title" = "立即购买";
+
+/* Class = "UITableViewController"; title = "我的收藏"; ObjectID = "uQ0-9w-STK"; */
+"uQ0-9w-STK.title" = "我的收藏";
+
+/* Class = "UITabBarItem"; title = "软件设置"; ObjectID = "uZz-vf-sXN"; */
+"uZz-vf-sXN.title" = "软件设置";
+
+/* Class = "UIViewController"; title = "我的淘宝"; ObjectID = "yNw-K7-wgh"; */
+"yNw-K7-wgh.title" = "My taobao";
+
+/* Class = "UITabBarItem"; title = "商品类别"; ObjectID = "ycH-ud-TSM"; */
+"ycH-ud-TSM.title" = "商品类别";

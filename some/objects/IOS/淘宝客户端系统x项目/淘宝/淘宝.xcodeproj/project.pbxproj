@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C830657C1C0D8A2A002B80E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C830657B1C0D8A2A002B80E1 /* main.m */; };
+		C830657F1C0D8A2A002B80E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C830657E1C0D8A2A002B80E1 /* AppDelegate.m */; };
+		C83065881C0D8A2A002B80E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83065861C0D8A2A002B80E1 /* Main.storyboard */; };
+		C830658A1C0D8A2A002B80E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83065891C0D8A2A002B80E1 /* Assets.xcassets */; };
+		C830658D1C0D8A2A002B80E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C830658B1C0D8A2A002B80E1 /* LaunchScreen.storyboard */; };
+		C83065A01C0D905D002B80E1 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = C83065971C0D905D002B80E1 /* Goods.m */; };
+		C83065A11C0D905D002B80E1 /* GoodsCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C83065991C0D905D002B80E1 /* GoodsCategory.m */; };
+		C83065A21C0D905D002B80E1 /* GoodsCategoryCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C830659B1C0D905D002B80E1 /* GoodsCategoryCollection.m */; };
+		C83065A31C0D905D002B80E1 /* GoodsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C830659D1C0D905D002B80E1 /* GoodsCollection.m */; };
+		C83065A41C0D905D002B80E1 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = C830659F1C0D905D002B80E1 /* Setting.m */; };
+		C83065AA1C0D970B002B80E1 /* GoodsCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83065A91C0D970B002B80E1 /* GoodsCategoryTableViewController.m */; };
+		C841BDCD1C0FD8ED00DB2AC5 /* TaoBaoFindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C841BDCC1C0FD8ED00DB2AC5 /* TaoBaoFindTableViewController.m */; };
+		C841BDD01C0FDFEA00DB2AC5 /* MyTaoBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C841BDCF1C0FDFEA00DB2AC5 /* MyTaoBaoViewController.m */; };
+		C841BDD31C0FE70D00DB2AC5 /* TaoBaoFunctionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C841BDD21C0FE70D00DB2AC5 /* TaoBaoFunctionTableViewController.m */; };
+		C841BDD61C0FEC7D00DB2AC5 /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C841BDD51C0FEC7D00DB2AC5 /* FunctionViewController.m */; };
+		C841BDD91C100C9800DB2AC5 /* GoodsNumberTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C841BDD81C100C9800DB2AC5 /* GoodsNumberTableViewController.m */; };
+		C858D6131C11822600136A8D /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C858D6121C11822600136A8D /* BuyViewController.m */; };
+		C884EBBF1C0EF4F800227C4E /* GoodsInfornationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C884EBBE1C0EF4F800227C4E /* GoodsInfornationViewController.m */; };
+		C8951AF11C0E806E006D1B0E /* GoodsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8951AF01C0E806D006D1B0E /* GoodsListTableViewController.m */; };
+		C8982FE71C15558E004BC617 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8982FE91C15558E004BC617 /* Localizable.strings */; };
+		C8982FED1C1558E2004BC617 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8982FEC1C1558E2004BC617 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C83065771C0D8A2A002B80E1 /* 淘宝.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "淘宝.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C830657B1C0D8A2A002B80E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C830657D1C0D8A2A002B80E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C830657E1C0D8A2A002B80E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C83065871C0D8A2A002B80E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C83065891C0D8A2A002B80E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C830658C1C0D8A2A002B80E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C830658E1C0D8A2A002B80E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83065961C0D905D002B80E1 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		C83065971C0D905D002B80E1 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		C83065981C0D905D002B80E1 /* GoodsCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsCategory.h; sourceTree = "<group>"; };
+		C83065991C0D905D002B80E1 /* GoodsCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsCategory.m; sourceTree = "<group>"; };
+		C830659A1C0D905D002B80E1 /* GoodsCategoryCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsCategoryCollection.h; sourceTree = "<group>"; };
+		C830659B1C0D905D002B80E1 /* GoodsCategoryCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsCategoryCollection.m; sourceTree = "<group>"; };
+		C830659C1C0D905D002B80E1 /* GoodsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsCollection.h; sourceTree = "<group>"; };
+		C830659D1C0D905D002B80E1 /* GoodsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsCollection.m; sourceTree = "<group>"; };
+		C830659E1C0D905D002B80E1 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		C830659F1C0D905D002B80E1 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		C83065A81C0D970B002B80E1 /* GoodsCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsCategoryTableViewController.h; sourceTree = "<group>"; };
+		C83065A91C0D970B002B80E1 /* GoodsCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsCategoryTableViewController.m; sourceTree = "<group>"; };
+		C841BDCB1C0FD8ED00DB2AC5 /* TaoBaoFindTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaoBaoFindTableViewController.h; sourceTree = "<group>"; };
+		C841BDCC1C0FD8ED00DB2AC5 /* TaoBaoFindTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaoBaoFindTableViewController.m; sourceTree = "<group>"; };
+		C841BDCE1C0FDFEA00DB2AC5 /* MyTaoBaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTaoBaoViewController.h; sourceTree = "<group>"; };
+		C841BDCF1C0FDFEA00DB2AC5 /* MyTaoBaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTaoBaoViewController.m; sourceTree = "<group>"; };
+		C841BDD11C0FE70D00DB2AC5 /* TaoBaoFunctionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaoBaoFunctionTableViewController.h; sourceTree = "<group>"; };
+		C841BDD21C0FE70D00DB2AC5 /* TaoBaoFunctionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaoBaoFunctionTableViewController.m; sourceTree = "<group>"; };
+		C841BDD41C0FEC7D00DB2AC5 /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
+		C841BDD51C0FEC7D00DB2AC5 /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
+		C841BDD71C100C9800DB2AC5 /* GoodsNumberTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsNumberTableViewController.h; sourceTree = "<group>"; };
+		C841BDD81C100C9800DB2AC5 /* GoodsNumberTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsNumberTableViewController.m; sourceTree = "<group>"; };
+		C858D6111C11822600136A8D /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
+		C858D6121C11822600136A8D /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
+		C884EBBD1C0EF4F800227C4E /* GoodsInfornationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsInfornationViewController.h; sourceTree = "<group>"; };
+		C884EBBE1C0EF4F800227C4E /* GoodsInfornationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsInfornationViewController.m; sourceTree = "<group>"; };
+		C8951AEF1C0E806D006D1B0E /* GoodsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsListTableViewController.h; sourceTree = "<group>"; };
+		C8951AF01C0E806D006D1B0E /* GoodsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsListTableViewController.m; sourceTree = "<group>"; };
+		C8982FDD1C154BA7004BC617 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C8982FE41C155037004BC617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C8982FE61C1550CC004BC617 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		C8982FE81C15558E004BC617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C8982FEA1C1555A0004BC617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C8982FEB1C1555A8004BC617 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C8982FEC1C1558E2004BC617 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C83065741C0D8A2A002B80E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C830656E1C0D8A29002B80E1 = {
+			isa = PBXGroup;
+			children = (
+				C8982FD71C1537C1004BC617 /* Source */,
+				C884EBB91C0ED9BF00227C4E /* 商品分类 */,
+				C884EBB81C0ED99900227C4E /* 淘宝搜索 */,
+				C884EBBA1C0ED9F900227C4E /* 我的淘宝 */,
+				C884EBBB1C0EDA0F00227C4E /* 淘宝功能 */,
+				C884EBBC1C0EDA1A00227C4E /* 软件设置 */,
+				C83065941C0D8A32002B80E1 /* Models */,
+				C83065791C0D8A2A002B80E1 /* 淘宝 */,
+				C83065781C0D8A2A002B80E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C83065781C0D8A2A002B80E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83065771C0D8A2A002B80E1 /* 淘宝.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C83065791C0D8A2A002B80E1 /* 淘宝 */ = {
+			isa = PBXGroup;
+			children = (
+				C830657D1C0D8A2A002B80E1 /* AppDelegate.h */,
+				C830657E1C0D8A2A002B80E1 /* AppDelegate.m */,
+				C83065861C0D8A2A002B80E1 /* Main.storyboard */,
+				C83065891C0D8A2A002B80E1 /* Assets.xcassets */,
+				C830658B1C0D8A2A002B80E1 /* LaunchScreen.storyboard */,
+				C830658E1C0D8A2A002B80E1 /* Info.plist */,
+				C830657A1C0D8A2A002B80E1 /* Supporting Files */,
+			);
+			path = "淘宝";
+			sourceTree = "<group>";
+		};
+		C830657A1C0D8A2A002B80E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C830657B1C0D8A2A002B80E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C83065941C0D8A32002B80E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C83065961C0D905D002B80E1 /* Goods.h */,
+				C83065971C0D905D002B80E1 /* Goods.m */,
+				C83065981C0D905D002B80E1 /* GoodsCategory.h */,
+				C83065991C0D905D002B80E1 /* GoodsCategory.m */,
+				C830659A1C0D905D002B80E1 /* GoodsCategoryCollection.h */,
+				C830659B1C0D905D002B80E1 /* GoodsCategoryCollection.m */,
+				C830659C1C0D905D002B80E1 /* GoodsCollection.h */,
+				C830659D1C0D905D002B80E1 /* GoodsCollection.m */,
+				C830659E1C0D905D002B80E1 /* Setting.h */,
+				C830659F1C0D905D002B80E1 /* Setting.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C884EBB81C0ED99900227C4E /* 淘宝搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				C841BDCB1C0FD8ED00DB2AC5 /* TaoBaoFindTableViewController.h */,
+				C841BDCC1C0FD8ED00DB2AC5 /* TaoBaoFindTableViewController.m */,
+			);
+			name = "淘宝搜索";
+			sourceTree = "<group>";
+		};
+		C884EBB91C0ED9BF00227C4E /* 商品分类 */ = {
+			isa = PBXGroup;
+			children = (
+				C83065A81C0D970B002B80E1 /* GoodsCategoryTableViewController.h */,
+				C83065A91C0D970B002B80E1 /* GoodsCategoryTableViewController.m */,
+				C8951AEF1C0E806D006D1B0E /* GoodsListTableViewController.h */,
+				C8951AF01C0E806D006D1B0E /* GoodsListTableViewController.m */,
+				C884EBBD1C0EF4F800227C4E /* GoodsInfornationViewController.h */,
+				C884EBBE1C0EF4F800227C4E /* GoodsInfornationViewController.m */,
+				C858D6111C11822600136A8D /* BuyViewController.h */,
+				C858D6121C11822600136A8D /* BuyViewController.m */,
+			);
+			name = "商品分类";
+			sourceTree = "<group>";
+		};
+		C884EBBA1C0ED9F900227C4E /* 我的淘宝 */ = {
+			isa = PBXGroup;
+			children = (
+				C841BDCE1C0FDFEA00DB2AC5 /* MyTaoBaoViewController.h */,
+				C841BDCF1C0FDFEA00DB2AC5 /* MyTaoBaoViewController.m */,
+			);
+			name = "我的淘宝";
+			sourceTree = "<group>";
+		};
+		C884EBBB1C0EDA0F00227C4E /* 淘宝功能 */ = {
+			isa = PBXGroup;
+			children = (
+				C841BDD11C0FE70D00DB2AC5 /* TaoBaoFunctionTableViewController.h */,
+				C841BDD21C0FE70D00DB2AC5 /* TaoBaoFunctionTableViewController.m */,
+				C841BDD71C100C9800DB2AC5 /* GoodsNumberTableViewController.h */,
+				C841BDD81C100C9800DB2AC5 /* GoodsNumberTableViewController.m */,
+			);
+			name = "淘宝功能";
+			sourceTree = "<group>";
+		};
+		C884EBBC1C0EDA1A00227C4E /* 软件设置 */ = {
+			isa = PBXGroup;
+			children = (
+				C841BDD41C0FEC7D00DB2AC5 /* FunctionViewController.h */,
+				C841BDD51C0FEC7D00DB2AC5 /* FunctionViewController.m */,
+			);
+			name = "软件设置";
+			sourceTree = "<group>";
+		};
+		C8982FD71C1537C1004BC617 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C8982FE91C15558E004BC617 /* Localizable.strings */,
+				C8982FEC1C1558E2004BC617 /* Settings.bundle */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C83065761C0D8A2A002B80E1 /* 淘宝 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83065911C0D8A2A002B80E1 /* Build configuration list for PBXNativeTarget "淘宝" */;
+			buildPhases = (
+				C83065731C0D8A2A002B80E1 /* Sources */,
+				C83065741C0D8A2A002B80E1 /* Frameworks */,
+				C83065751C0D8A2A002B80E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "淘宝";
+			productName = "淘宝";
+			productReference = C83065771C0D8A2A002B80E1 /* 淘宝.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C830656F1C0D8A29002B80E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "杨峰";
+				TargetAttributes = {
+					C83065761C0D8A2A002B80E1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = J6C2T28JK7;
+					};
+				};
+			};
+			buildConfigurationList = C83065721C0D8A29002B80E1 /* Build configuration list for PBXProject "淘宝" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = C830656E1C0D8A29002B80E1;
+			productRefGroup = C83065781C0D8A2A002B80E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C83065761C0D8A2A002B80E1 /* 淘宝 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C83065751C0D8A2A002B80E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C830658D1C0D8A2A002B80E1 /* LaunchScreen.storyboard in Resources */,
+				C8982FE71C15558E004BC617 /* Localizable.strings in Resources */,
+				C8982FED1C1558E2004BC617 /* Settings.bundle in Resources */,
+				C830658A1C0D8A2A002B80E1 /* Assets.xcassets in Resources */,
+				C83065881C0D8A2A002B80E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83065731C0D8A2A002B80E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83065A41C0D905D002B80E1 /* Setting.m in Sources */,
+				C841BDCD1C0FD8ED00DB2AC5 /* TaoBaoFindTableViewController.m in Sources */,
+				C83065A31C0D905D002B80E1 /* GoodsCollection.m in Sources */,
+				C841BDD31C0FE70D00DB2AC5 /* TaoBaoFunctionTableViewController.m in Sources */,
+				C83065A11C0D905D002B80E1 /* GoodsCategory.m in Sources */,
+				C8951AF11C0E806E006D1B0E /* GoodsListTableViewController.m in Sources */,
+				C841BDD61C0FEC7D00DB2AC5 /* FunctionViewController.m in Sources */,
+				C83065A01C0D905D002B80E1 /* Goods.m in Sources */,
+				C83065A21C0D905D002B80E1 /* GoodsCategoryCollection.m in Sources */,
+				C830657F1C0D8A2A002B80E1 /* AppDelegate.m in Sources */,
+				C83065AA1C0D970B002B80E1 /* GoodsCategoryTableViewController.m in Sources */,
+				C884EBBF1C0EF4F800227C4E /* GoodsInfornationViewController.m in Sources */,
+				C841BDD01C0FDFEA00DB2AC5 /* MyTaoBaoViewController.m in Sources */,
+				C858D6131C11822600136A8D /* BuyViewController.m in Sources */,
+				C841BDD91C100C9800DB2AC5 /* GoodsNumberTableViewController.m in Sources */,
+				C830657C1C0D8A2A002B80E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C83065861C0D8A2A002B80E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83065871C0D8A2A002B80E1 /* Base */,
+				C8982FE41C155037004BC617 /* en */,
+				C8982FE61C1550CC004BC617 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C830658B1C0D8A2A002B80E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C830658C1C0D8A2A002B80E1 /* Base */,
+				C8982FDD1C154BA7004BC617 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C8982FE91C15558E004BC617 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8982FE81C15558E004BC617 /* Base */,
+				C8982FEA1C1555A0004BC617 /* en */,
+				C8982FEB1C1555A8004BC617 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C830658F1C0D8A2A002B80E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C83065901C0D8A2A002B80E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C83065921C0D8A2A002B80E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "淘宝/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MuiscPlayer.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C83065931C0D8A2A002B80E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "淘宝/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MuiscPlayer.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83065721C0D8A29002B80E1 /* Build configuration list for PBXProject "淘宝" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C830658F1C0D8A2A002B80E1 /* Debug */,
+				C83065901C0D8A2A002B80E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83065911C0D8A2A002B80E1 /* Build configuration list for PBXNativeTarget "淘宝" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83065921C0D8A2A002B80E1 /* Debug */,
+				C83065931C0D8A2A002B80E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C830656F1C0D8A29002B80E1 /* Project object */;
+}
